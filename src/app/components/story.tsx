@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Story() {
   return (
     <div className="py-20 px-10 bg-cover bg-center bg-neutral-800">
-      <h2 className={`text-center text-4xl text-white mb-12`}>Love Story</h2>
+      <h2 className="font-montserrat text-center text-4xl text-white mb-12">Love Story</h2>
       <div className="grid grid-cols-3 gap-2 mb-4">
         <div className="col-span-2">
           <Image
@@ -32,9 +32,9 @@ export default function Story() {
         </div>
       </div>
       <div className="text-white py-4">
-        <p className="text-sm  text-center">Awal Pertemuan</p>
-        <p className="text-xs  text-center pb-2">Bukittinggi, 7 Juni 2023</p>
-        <p className="text-xs italic  text-center">
+        <p className="font-montserrat text-sm text-center">Awal Pertemuan</p>
+        <p className="font-ontserratr text-xs text-center pb-2">Bukittinggi, 7 Juni 2023</p>
+        <p className="font-merriweather text-xs text-center">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque et
           provident minima, ab, voluptatibus saepe eveniet tempora blanditiis
           modi delectus sapiente vel veritatis id culpa dignissimos laboriosam
@@ -42,19 +42,19 @@ export default function Story() {
         </p>
       </div>
       <div className="text-white py-4">
-        <p className="text-sm  text-center">Berkomitmen</p>
-        <p className="text-xs  text-center pb-2">Bukittinggi, 7 Juni 2024</p>
-        <p className="text-xs italic  text-center">
+        <p className="font-montserrat text-sm  text-center">Berkomitmen</p>
+        <p className="font-montserrat text-xs  text-center pb-2">Bukittinggi, 7 Juni 2024</p>
+        <p className="font-merriweather text-xs text-center">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque et
           provident minima, ab, voluptatibus saepe eveniet tempora blanditiis
           modi delectus sapiente vel veritatis id culpa dignissimos laboriosam
           sint ducimus!
         </p>
       </div>
-      <div className="text-white">
-        <p className="text-sm  text-center">Bertunangan</p>
-        <p className="text-xs  text-center pb-2">Bukittinggi, 7 April 2025</p>
-        <p className="text-xs italic  text-center">
+      <div className="text-white pt-4">
+        <p className="font-montserrat text-sm  text-center">Bertunangan</p>
+        <p className="font-montserrat text-xs  text-center pb-2">Bukittinggi, 7 April 2025</p>
+        <p className="font-merriweather text-xs text-center">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque et
           provident minima, ab, voluptatibus saepe eveniet tempora blanditiis
           modi delectus sapiente vel veritatis id culpa dignissimos laboriosam

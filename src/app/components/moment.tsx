@@ -67,7 +67,7 @@ export default function Moment() {
 
   return (
     <div className="py-20 px-10 bg-neutral-800">
-      <h2 className="text-center text-4xl text-white mb-12">Our Moment</h2>
+      <h2 className="font-montserrat text-center text-4xl text-white mb-12">Our Moment</h2>
 
       <div className="w-full mx-auto h-[500px] relative mb-6 overflow-hidden rounded">
         <AnimatePresence mode="wait">
