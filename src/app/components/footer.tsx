@@ -2,6 +2,7 @@
 
 import { Instagram } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -17,19 +18,19 @@ export default function Footer() {
         />
       </div>
 
-      <p className="text-center text-sm">
+      <p className="font-merriweather text-center text-sm">
         Merupakan sebuah kehormatan dan kebahagiaan bagi kami jika Bapak/Ibu
         /Saudara/i berkenan hadir dan memberikan doa restu bagi kami.
       </p>
-      <p className="text-center px-10 mb-10">Terima kasih.</p>
+      <p className="text-center text-sm px-10 mb-10">Terima kasih.</p>
 
       <div className="flex flex-col items-center mt-40 pb-10">
-        <p className="text-center italic text-xs px-10 mb-1">Created by Ravi Farhan</p>
+        <p className="font-montserrat text-center italic text-xs px-10 mb-1">Created by Ravi Farhan</p>
         <button className="rounded-full shadow-md">
-          <a href="https://www.instagram.com/mravifarhan/" target="_blank">
+          <Link href="https://www.instagram.com/mravifarhan/">
             <Instagram size={18} className="inline-block" />
-            <span className="text-xs ml-1">mravifarhan</span>
-          </a>
+            <span className="font-montserrat text-xs ml-1">mravifarhan</span>
+          </Link>
         </button>
       </div>
     </div>

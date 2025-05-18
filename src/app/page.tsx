@@ -14,7 +14,7 @@ import Footer from "./components/footer";
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const [guestName, setGuestName] = useState("");
+  const [guestName] = useState("");
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handleOpenInvitation = () => {
@@ -46,13 +46,13 @@ export default function Home() {
 
   return (
     <div className="max-w-md mx-auto">
-      {/* <audio ref={audioRef} src="/perfect.mp3" loop preload="auto" /> */}
-      {/* {!isOpen ? (
+      <audio ref={audioRef} src="/perfect.mp3" loop preload="auto" />
+      {!isOpen ? (
         <CoverPage
           guestName={guestName}
           onOpenInvitation={handleOpenInvitation}
         />
-      ) : ( */}
+      ) : (
       <div className="mx-auto">
         <div className="fixed z-50 bottom-5">
           <button
@@ -71,7 +71,7 @@ export default function Home() {
         <Wish />
         <Footer />
       </div>
-      {/* )} */}
+      )}
     </div>
   );
 }
